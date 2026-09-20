@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foq — The Open-Source Alternative to Jev (TypeSafe.ai) | 100% Local System 1 AI</title>
-  <meta name="description" content="Foq is the local, open-source alternative to Jev (TypeSafe AI). Run deterministic typed System 1 decisions (Choice, Boolean, Score) locally with 25 ms latency, 0 tokens generated, 0 cloud fees, and auditable weights.">
-  <meta name="keywords" content="Jev alternative, TypeSafe AI alternative, open source Jev, self-hosted Jev, Jev vs Foq, System 1 AI, machine-native AI, typed decisions, low-latency AI, llama.cpp, RLCD calibration">
+  <title>Foq — The Open-Source Alternative to Jev (TypeSafe.ai) & Laya | 100% Local 8B System 1 AI</title>
+  <meta name="description" content="Foq is the 100% local, open-source alternative to Jev and Laya. 8B ternary model outperforming sub-billion BERT models on accuracy (100% vs 77.8%), memory footprint (4.8 GB vs 8.6 GB), and latency (20 ms) with 0 cloud fees.">
+  <meta name="keywords" content="Jev alternative, TypeSafe AI alternative, Laya alternative, Laya vs Foq, Convai Laya, open source Jev, self-hosted Jev, System 1 AI, machine-native AI, typed decisions, low-latency AI, llama.cpp, RLCD calibration, BERT router alternative, ModernBERT router">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://foq.fr/">
   <link rel="alternate" hreflang="en" href="https://foq.fr/">
@@ -13,20 +13,20 @@
   <link rel="alternate" hreflang="x-default" href="https://foq.fr/">
 
   <!-- Open Graph / Social Media Meta -->
-  <meta property="og:title" content="Foq — The Open-Source Alternative to Jev (TypeSafe AI)">
-  <meta property="og:description" content="100% local, self-hosted alternative to Jev. 25 ms typed decisions, 0 tokens generated, $0 cost, open weights (Apache 2.0).">
+  <meta property="og:title" content="Foq — Open-Source Alternative to Jev & Laya | 100% Local System 1 AI">
+  <meta property="og:description" content="100% local, self-hosted alternative to Jev and Laya. 8B ternary model delivering 100% accuracy, 20 ms latency, and 44% less memory than PyTorch routers.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://foq.fr/">
-  <meta property="og:image" content="https://foq.fr/assets/chart_latence.png">
+  <meta property="og:image" content="https://foq.fr/assets/chart_memory_paradox.png">
   <meta property="og:site_name" content="Foq">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="fr_FR">
 
   <!-- Twitter Card Meta -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Foq — The Open-Source Alternative to Jev (TypeSafe AI)">
-  <meta name="twitter:description" content="Run typed System 1 decisions locally on your GPU/CPU with 0 cloud dependency. 100% open-source alternative to Jev.">
-  <meta name="twitter:image" content="https://foq.fr/assets/chart_latence.png">
+  <meta name="twitter:title" content="Foq — Open-Source Alternative to Jev & Laya | 100% Local System 1 AI">
+  <meta name="twitter:description" content="Run typed System 1 decisions locally with 8B semantic depth. Beats sub-billion BERT routers on accuracy (100% vs 77.8%) and memory (4.8 GB vs 8.6 GB).">
+  <meta name="twitter:image" content="https://foq.fr/assets/chart_memory_paradox.png">
 
   <!-- Schema.org JSON-LD Structured Data for Google -->
   <script type="application/ld+json">
@@ -37,19 +37,19 @@
         "@type": "WebSite",
         "@id": "https://foq.fr/#website",
         "url": "https://foq.fr/",
-        "name": "Foq — Open-Source Alternative to Jev",
-        "description": "Open-source, self-hosted alternative to Jev (TypeSafe AI). Machine-native System 1 decision engine.",
+        "name": "Foq — Open-Source Alternative to Jev & Laya",
+        "description": "Open-source, self-hosted alternative to Jev (TypeSafe AI) and Laya (Convai). Machine-native System 1 decision engine.",
         "inLanguage": ["en", "fr"]
       },
       {
         "@type": "SoftwareApplication",
         "@id": "https://foq.fr/#software",
         "name": "Foq",
-        "alternateName": ["Foq", "Foq Engine", "Open-Source Jev Alternative"],
+        "alternateName": ["Foq", "Foq Engine", "Open-Source Jev Alternative", "Open-Source Laya Alternative"],
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Linux, macOS, Windows",
         "license": "https://opensource.org/licenses/MIT",
-        "description": "Foq is an open-source, 100% local System 1 decision engine providing deterministic typed primitives (Choice, Boolean, Score) as a direct self-hosted alternative to Jev by TypeSafe AI.",
+        "description": "Foq is an open-source, 100% local System 1 decision engine providing deterministic typed primitives (Choice, Boolean, Score) outperforming cloud Jev and sub-billion BERT routers like Laya on accuracy and memory efficiency.",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -66,6 +66,17 @@
               "url": "https://typesafe.ai"
             },
             "description": "Proprietary cloud-hosted System 1 decision API"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Laya",
+            "url": "https://github.com/NandhaKishorM/laya",
+            "creator": {
+              "@type": "Organization",
+              "name": "Convai",
+              "url": "https://github.com/NandhaKishorM/laya"
+            },
+            "description": "Sub-billion ModernBERT-based classification router"
           }
         ]
       },
@@ -79,6 +90,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Yes, Foq is the local, open-source alternative to Jev (TypeSafe AI). It provides the exact same System 1 typed decision primitives (Choice, Boolean, Score) running 100% locally on your hardware with 25 ms latency, zero cloud API bills, and fully inspectable Apache 2.0 weights."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Foq compare to Laya by Convai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In empirical head-to-head benchmarks on an RTX 3060, Foq 8B achieved 100% accuracy compared to Laya's 77.8%. Laya hallucinates on critical emergency triage with 100% false confidence and collapses to 7-14% confidence on negations or prompt injections. Foq's 8B parameters provide human-level semantic depth while using 44% less memory (4.8 GB vs 8.6 GB total) thanks to 1.58-bit ternary quantization and native C++ execution."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the memory paradox between Foq and Laya?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Although Laya uses smaller 420M models on paper, keeping multiple FP16 models resident in PyTorch reserves ~8.6 GB of total memory (3.35 GB RAM + 5.31 GB VRAM). Foq's native C++ ternary 8B engine runs in just ~4.8 GB total (2.54 GB RAM + 2.25 GB VRAM), consuming 44% less memory while offering 19x more parameters."
             }
           },
           {

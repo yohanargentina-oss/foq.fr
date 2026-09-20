@@ -70,8 +70,15 @@ function setLanguage(lang, updateStorage = true) {
 
   document.documentElement.lang = lang;
   document.title = (lang === 'fr' 
-    ? "Foq — L'Alternative Open Source à Jev (TypeSafe.ai) | 100% Local Système 1" 
-    : "Foq — The Open-Source Alternative to Jev (TypeSafe.ai) | 100% Local System 1 AI");
+    ? "Foq — L'Alternative Open Source à Jev & Laya | 100% Local 8B Système 1" 
+    : "Foq — The Open-Source Alternative to Jev (TypeSafe.ai) & Laya | 100% Local 8B System 1 AI");
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    metaDesc.setAttribute('content', lang === 'fr'
+      ? "Foq est l'alternative open-source et 100% locale à Jev et Laya. Modèle 8B ternaire surclassant les routeurs BERT 420M en précision (100% vs 77,8%), mémoire (4,8 Go vs 8,6 Go) et latence (20 ms)."
+      : "Foq is the 100% local, open-source alternative to Jev and Laya. 8B ternary model outperforming sub-billion BERT models on accuracy (100% vs 77.8%), memory footprint (4.8 GB vs 8.6 GB), and latency (20 ms) with 0 cloud fees.");
+  }
 
 
   // Update button active classes
