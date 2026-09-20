@@ -1346,6 +1346,91 @@ body {
 }
 
 /* -------------------------------------------------------------
+   FOQ VS LAYA BENCHMARK SECTION
+   ------------------------------------------------------------- */
+.laya-section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-surface);
+}
+
+.laya-charts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.laya-charts-grid .chart-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.laya-charts-grid .chart-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+.laya-table th.col-laya {
+  color: #60a5fa;
+  border-bottom-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.laya-table td.col-laya {
+  background: rgba(59, 130, 246, 0.04);
+  color: var(--text-primary);
+}
+
+.repro-banner {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 20px 24px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.repro-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.repro-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.repro-text {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.repro-cmd-box {
+  display: flex;
+  align-items: center;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+/* -------------------------------------------------------------
    RESPONSIVE DESIGN
    ------------------------------------------------------------- */
 @media (max-width: 960px) {
@@ -1355,6 +1440,8 @@ body {
   .calculator-grid,
   .pillars-grid,
   .charts-grid,
+  .laya-charts-grid,
+  .jev-takeaways-grid,
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -1391,3 +1478,4 @@ body {
     font-size: 2.1rem;
   }
 }
+
