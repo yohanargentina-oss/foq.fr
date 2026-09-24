@@ -28,7 +28,7 @@ const TRANSLATIONS = {
     "hero.cta_benchmarks": "View Measured Benchmarks",
 
     // Game of Life
-    "glider.title": "Glider 1.1 — Conway's Game of Life",
+    "glider.title": "Glider 1.1: Conway's Game of Life",
     "glider.subtitle": "Deterministic cellular automaton",
     "glider.pause": "PAUSE",
     "glider.play": "PLAY",
@@ -37,8 +37,8 @@ const TRANSLATIONS = {
     "glider.clear": "CLEAR",
 
     // Launch Film
-    "video.title": "Foq in 4 minutes — the launch film",
-    "video.subtitle": "One decision, timed. 25 ms — 100% local, open source.",
+    "video.title": "Foq in 4 minutes: the launch film",
+    "video.subtitle": "One decision, timed. 25 ms. 100% local, open source.",
 
     // Paradigm Timeline
     "paradigm.title": "The Evolution of AI Paradigms",
@@ -115,7 +115,7 @@ const TRANSLATIONS = {
     // Foq vs Jev (TypeSafe AI) Direct Comparison
     "jev.tag": "// DIRECT COMPARISON: FOQ VS JEV (TYPESAFE.AI)",
     "jev.title": "The Open-Source Alternative to Jev",
-    "jev.desc": "The exact same System 1 typed decision primitives — running 100% locally on your hardware with 0 cloud dependencies, open weights, and native fail-safe review.",
+    "jev.desc": "The exact same System 1 typed decision primitives running 100% locally on your hardware with 0 cloud dependencies, open weights, and native fail-safe review.",
     "jev.th_cap": "CAPABILITY",
     "jev.th_foq": "⚡ FOQ (OPEN SOURCE)",
     "jev.th_jev": "🔒 JEV (TYPESAFE AI)",
@@ -165,6 +165,9 @@ const TRANSLATIONS = {
     "jev.t3_num": "03 // LOCAL DOMAIN TUNING",
     "jev.t3_title": "Adapts to your business in 12 minutes",
     "jev.t3_desc": "The LoRA training pipeline is bundled. The +10.7 points accuracy boost on domain-specific classification is measured, reproducible, and private.",
+    "jev.t4_num": "04 // ZERO CLOUD RISK",
+    "jev.t4_title": "Air-gapped and sovereign by design",
+    "jev.t4_desc": "Zero outgoing telemetry or cloud dependencies. Operates strictly inside isolated on-premise clusters with guaranteed compliance.",
 
     // Foq vs Laya Empirical Benchmark Section
     "laya.tag": "// EMPIRICAL BENCHMARK: FOQ 8B VS LAYA (MODERNBERT 420M)",
@@ -173,6 +176,7 @@ const TRANSLATIONS = {
     "laya.fig_memory": "The Memory Paradox: Foq uses 44% less total memory (4.8 GB vs 8.6 GB) despite 19x more parameters, thanks to native C++ and 1.58-bit ternary quantization.",
     "laya.fig_robustness": "Adversarial Robustness: Sub-billion models collapse on negations (14.6%) and prompt injections (7.9%), and fail critical emergency triage with 100% false confidence.",
     "laya.fig_perf": "Throughput & Latency: Foq achieves 102.0 dec/s (+134% throughput) and 20.7 ms median latency via C++ prompt caching.",
+    "laya.fig_calibration": "Mathematical Calibration: Foq achieves ECE 0.23% via RLCD, while sub-billion models hallucinate on out-of-distribution inputs with 100% false confidence.",
     "laya.th_metric": "TEST / OPERATIONAL METRIC",
     "laya.th_foq": "⚡ FOQ 8B (PQ2_0, C++)",
     "laya.th_laya": "🔷 LAYA (MODERNBERT 420M)",
@@ -270,7 +274,7 @@ const TRANSLATIONS = {
     // Pillars
     "pillars.tag": "// TECHNICAL FOUNDATIONS",
     "pillars.title": "The 4 Superpowers of Foq",
-    "pillars.desc": "Mathematically built for deterministic decision-making and seamless integration in mission-critical software pipelines.",
+    "pillars.desc": "Mathematically built for deterministic decision-making and direct integration into mission-critical software pipelines.",
     "pillars.p1_title": "Zero generated tokens (Prefill-Only)",
     "pillars.p1_text": "Traditional LLMs waste 95% of their compute in sequential token-by-token decoding loops. Foq evaluates context in a single feed-forward pass (autoregressive short-circuiting) and immediately projects the internal state onto allowed typed classes.",
     "pillars.p2_title": "Mathematical Calibration via RLCD (ECE 0%)",
@@ -323,12 +327,13 @@ const TRANSLATIONS = {
     "footer.desc": "Open-source machine-native intelligence infrastructure for software automation. Engineered to decide at the speed of a function call with zero external dependencies.",
     "footer.resources": "RESOURCES",
     "footer.specs": "SPECIFICATIONS",
+    "footer.community": "COMMUNITY & SOURCE",
     "footer.lic_code": "Code License: MIT",
     "footer.lic_weights": "Weights License: Apache 2.0",
     "footer.runtime": "Runtime: llama.cpp (100% On-Premise)",
     "footer.protocol": "Protocol: Local Socket / REST",
     "footer.status": "Status: Production Ready",
-    "footer.copyright": "© 2026 Foq — 100% Local System 1 Architecture. No cookies. Zero external telemetry.",
+    "footer.copyright": "© 2026 Foq. 100% Local System 1 Architecture. No cookies. Zero external telemetry.",
     "footer.tagline": "∵ ⩆ TYPED_DECISIONS_OVER_CHAT_STRINGS ⩆ ∵"
   },
 
@@ -356,7 +361,7 @@ const TRANSLATIONS = {
     "hero.cta_benchmarks": "Voir les Benchmarks Chiffrés",
 
     // Game of Life
-    "glider.title": "Glider 1.1 — Conway's Game of Life",
+    "glider.title": "Glider 1.1 : Jeu de la vie de Conway",
     "glider.subtitle": "Automate cellulaire déterministe",
     "glider.pause": "PAUSE",
     "glider.play": "LECTURE",
@@ -365,8 +370,8 @@ const TRANSLATIONS = {
     "glider.clear": "EFFACER",
 
     // Launch Film
-    "video.title": "Foq en 4 minutes — le film de lancement",
-    "video.subtitle": "Une décision, chronométrée. 25 ms — 100 % local, open source.",
+    "video.title": "Foq en 4 minutes : le film de lancement",
+    "video.subtitle": "Une décision, chronométrée. 25 ms. 100 % local, open source.",
 
     // Paradigm Timeline
     "paradigm.title": "L'Évolution des Paradigmes de l'IA",
@@ -443,7 +448,7 @@ const TRANSLATIONS = {
     // Foq vs Jev (TypeSafe AI) Direct Comparison
     "jev.tag": "// COMPARATIF DIRECT : FOQ VS JEV (TYPESAFE.AI)",
     "jev.title": "L'Alternative Open Source et Locale à Jev",
-    "jev.desc": "La même primitive de décision Système 1 typée — tournant à 100 % sur votre matériel sans dépendance cloud, avec poids ouverts et révision fail-safe native.",
+    "jev.desc": "La même primitive de décision Système 1 typée tournant à 100 % sur votre matériel sans dépendance cloud, avec poids ouverts et révision fail-safe native.",
     "jev.th_cap": "CAPACITÉ",
     "jev.th_foq": "⚡ FOQ (OPEN SOURCE)",
     "jev.th_jev": "🔒 JEV (TYPESAFE AI)",
@@ -493,6 +498,9 @@ const TRANSLATIONS = {
     "jev.t3_num": "03 // ADAPTATION LOCALE",
     "jev.t3_title": "Il apprend votre métier en 12 minutes",
     "jev.t3_desc": "Le pipeline de fine-tuning LoRA est fourni. Les +10,7 points de précision apportés sont réels, mesurés sur des cas de test confidentiels sur votre propre GPU.",
+    "jev.t4_num": "04 // SOUVERAINETÉ TOTALE",
+    "jev.t4_title": "Air-gapped et souverain par conception",
+    "jev.t4_desc": "Zéro télémétrie sortante ou dépendance cloud. Fonctionne strictement dans des clusters isolés on-premise avec conformité garantie.",
 
     // Foq vs Laya Benchmarks
     "laya.tag": "// BENCHMARK EMPIRIQUE : FOQ 8B VS LAYA (MODERNBERT 420M)",
@@ -501,6 +509,7 @@ const TRANSLATIONS = {
     "laya.fig_memory": "Le paradoxe de la mémoire : Foq consomme 44 % de mémoire totale en moins (4,8 Go contre 8,6 Go) tout en ayant 19× plus de paramètres, grâce au C++ natif et à la compression ternaire 1,58-bit.",
     "laya.fig_robustness": "Robustesse adversariale : les modèles de moins d'un milliard de paramètres s'effondrent sur les négations (14,6 %) et les injections (7,9 %), et ratent les urgences critiques avec 100 % de sur-confiance.",
     "laya.fig_perf": "Débit et latence : Foq atteint 102,0 déc/s (+134 % de débit) et 20,7 ms de latence médiane grâce au prompt caching C++.",
+    "laya.fig_calibration": "Calibration mathématique : Foq atteint un ECE de 0,23 % via RLCD, tandis que les modèles sous le milliard hallucinent hors distribution avec 100 % de fausse confiance.",
     "laya.th_metric": "TEST / MÉTRIQUE OPÉRATIONNELLE",
     "laya.th_foq": "⚡ FOQ 8B (PQ2_0, C++)",
     "laya.th_laya": "🔷 LAYA (MODERNBERT 420M)",
@@ -651,12 +660,13 @@ const TRANSLATIONS = {
     "footer.desc": "Infrastructure d'intelligence machine-native open source pour l'automatisation logicielle. Conçue pour décider à la vitesse d'un appel de fonction sans dépendance externe.",
     "footer.resources": "RESSOURCES",
     "footer.specs": "SPÉCIFICATIONS",
+    "footer.community": "COMMUNAUTÉ & CODE",
     "footer.lic_code": "Licence code : MIT",
     "footer.lic_weights": "Licence poids : Apache 2.0",
     "footer.runtime": "Runtime : llama.cpp (100% Local)",
     "footer.protocol": "Protocole : Socket Local / REST",
     "footer.status": "Statut : Prêt pour la production",
-    "footer.copyright": "© 2026 Foq — Architecture Système 1 100% Locale. Aucun cookie. Zéro télémétrie externe.",
+    "footer.copyright": "© 2026 Foq. Architecture Système 1 100% Locale. Aucun cookie. Zéro télémétrie externe.",
     "footer.tagline": "∵ ⩆ TYPED_DECISIONS_OVER_CHAT_STRINGS ⩆ ∵"
   }
 };

@@ -242,7 +242,7 @@
           <div class="widget-header">
             <div class="widget-header-title">
               <span>▶</span>
-              <span data-i18n="video.title">Foq in 4 minutes — the launch film</span>
+              <span data-i18n="video.title">Foq in 4 minutes: the launch film</span>
             </div>
             <div class="mono">4:19</div>
           </div>
@@ -251,7 +251,7 @@
               <video controls preload="none" poster="assets/foq_video_poster.png" src="assets/foq_launch.mp4"></video>
             </div>
             <div class="glider-controls">
-              <span data-i18n="video.subtitle">One decision, timed. 25 ms — 100% local, open source.</span>
+              <span data-i18n="video.subtitle">One decision, timed. 25 ms. 100% local, open source.</span>
             </div>
           </div>
         </div>
@@ -433,7 +433,7 @@
         <span class="section-tag mono" data-i18n="jev.tag">// DIRECT COMPARISON: FOQ VS JEV (TYPESAFE.AI)</span>
         <h2 class="section-title" data-i18n="jev.title">The Open-Source Alternative to Jev</h2>
         <p class="section-desc" data-i18n="jev.desc">
-          The exact same System 1 typed decision primitives — running 100% locally on your hardware with 0 cloud dependencies, open weights, and native fail-safe review.
+          The exact same System 1 typed decision primitives running 100% locally on your hardware with 0 cloud dependencies, open weights, and native fail-safe review.
         </p>
       </div>
 
@@ -507,7 +507,7 @@
         </table>
       </div>
 
-      <!-- 3 Key Takeaways -->
+      <!-- Key Architectural Takeaways -->
       <div class="jev-takeaways-grid">
         <div class="jev-takeaway-card highlight">
           <div class="jev-takeaway-num" data-i18n="jev.t1_num">01 // PROVABLE DATA</div>
@@ -530,6 +530,13 @@
             The LoRA training pipeline is bundled. The +10.7 points accuracy boost on domain-specific classification is measured, reproducible, and private.
           </p>
         </div>
+        <div class="jev-takeaway-card">
+          <div class="jev-takeaway-num" data-i18n="jev.t4_num">04 // ZERO CLOUD RISK</div>
+          <h3 class="jev-takeaway-title" data-i18n="jev.t4_title">Air-gapped and sovereign by design</h3>
+          <p class="jev-takeaway-desc" data-i18n="jev.t4_desc">
+            Zero outgoing telemetry or cloud dependencies. Operates strictly inside isolated on-premise clusters with guaranteed compliance.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -545,7 +552,7 @@
         </p>
       </div>
 
-      <!-- 3 Super Visual Comparison Charts -->
+      <!-- Empirical Visual Comparison Charts -->
       <div class="laya-charts-grid">
         <div class="chart-card">
           <img src="assets/chart_memory_paradox.png" alt="Memory Paradox: Foq 8B vs Laya Memory Profiling">
@@ -565,6 +572,13 @@
           <img src="assets/chart_foq_vs_laya_perf.png" alt="Performance: Foq 8B vs Laya Latency and Throughput">
           <div class="chart-caption mono" data-i18n="laya.fig_perf">
             Throughput & Latency: Foq achieves 102.0 dec/s (+134% throughput) and 20.7 ms median latency via C++ prompt caching.
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <img src="assets/chart_calibration.png" alt="Mathematical Calibration: Foq RLCD vs Sub-Billion Confidence">
+          <div class="chart-caption mono" data-i18n="laya.fig_calibration">
+            Mathematical Calibration: Foq achieves ECE 0.23% via RLCD, while sub-billion models hallucinate on out-of-distribution inputs with 100% false confidence.
           </div>
         </div>
       </div>
@@ -829,7 +843,7 @@
         <span class="section-tag mono" data-i18n="pillars.tag">// TECHNICAL FOUNDATIONS</span>
         <h2 class="section-title" data-i18n="pillars.title">The 4 Superpowers of Foq</h2>
         <p class="section-desc" data-i18n="pillars.desc">
-          Mathematically built for deterministic decision-making and seamless integration in mission-critical software pipelines.
+          Mathematically built for deterministic decision-making and direct integration into mission-critical software pipelines.
         </p>
       </div>
 
@@ -1089,10 +1103,21 @@ print(verdict.cost)            # $0.00</pre>
             <li data-i18n="footer.status">Status: Production Ready</li>
           </ul>
         </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.community">COMMUNITY & SOURCE</h4>
+          <ul>
+            <li><a href="https://github.com/yohanargentina-oss/Foq" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+            <li><a href="https://huggingface.co/models?search=foq" target="_blank" rel="noopener noreferrer">Hugging Face Weights</a></li>
+            <li><a href="https://github.com/yohanargentina-oss/Foq/releases" target="_blank" rel="noopener noreferrer">Release Notes (v1.0.4)</a></li>
+            <li><a href="https://github.com/yohanargentina-oss/Foq/issues" target="_blank" rel="noopener noreferrer">Issue Tracker</a></li>
+            <li><a href="https://github.com/yohanargentina-oss/Foq/discussions" target="_blank" rel="noopener noreferrer">Discussions</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="footer-bottom">
-        <div data-i18n="footer.copyright">© 2026 Foq — 100% Local System 1 Architecture. No cookies. Zero external telemetry.</div>
+        <div data-i18n="footer.copyright">© 2026 Foq. 100% Local System 1 Architecture. No cookies. Zero external telemetry.</div>
         <div class="mono" data-i18n="footer.tagline">∵ ⩆ TYPED_DECISIONS_OVER_CHAT_STRINGS ⩆ ∵</div>
       </div>
     </div>

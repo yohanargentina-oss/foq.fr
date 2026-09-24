@@ -841,7 +841,7 @@ body {
 
 .jev-takeaways-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
@@ -1303,8 +1303,8 @@ body {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 30px;
   margin-bottom: 40px;
 }
 
@@ -1356,7 +1356,7 @@ body {
 
 .laya-charts-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
   margin-bottom: 35px;
 }
